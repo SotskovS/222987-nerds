@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Нёрдс</title>
-    </head>
+        </head>
     <body>
         <header class="main-header">
             <nav class="main-nav">
                 <a class="main-header-logo">
-                    <img src="#" alt="Логотип Нёрдс">
+                    <img src="img/nerds-logo.svg"  width="100" height="50 alt="Логотип Нёрдс">
                 </a>
                 <ul class="site-navigation">
                     <li><a href="#">Студия</a></li>
@@ -17,9 +17,31 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
                 <ul class="user-cart">
+                    <li class="cart-icon"></li>   
                     <li>Корзина</li>
                 </ul>
+                <section class="header-slider">
+                    <div class="header-slide1">
+                        <h2>Долго, дорого, скурпулезно.</h2>       
+                        <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p> 
+                        <button type="button" class="slider-button">Узнать больше</button>
+                        <span class="image-slade1"></span>
+                    </div>
+                    <div class="header-slide2">
+                        <h2>Любим математику как никто другой</h2> 
+                        <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p> 
+                        <button type="button" class="slider-button">Узнать больше</button>
+                        <span class="image-slade2"></span>
+                    </div>
+                    <div class="header-slide2">
+                        <h2>Только ночь, только хардкор</h2> 
+                        <p>Работать днем, как все? Мы против этого, ближе к полуночи работа только начинается.</p> 
+                        <button type="button" class="slider-button">Узнать больше</button>
+                        <span class="image-slade3"></span>
+                    </div>
+                </section>
             </nav>
+            
         </header>
         <main class="content">
             <section class="offer">
@@ -45,27 +67,36 @@
                 </ul>  
             </section>
             <section class="info">
-                <img src="#" alt="info-slide">
-                <table class="info-data">
-                    <tr>
-                        <td>146%</td>
-                        <td>100%</td>
-                        <td>50%</td>
-                    </tr>     
-                    <tr>
-                        <th>Уровень самоотдачи</th>
-                        <th>Соблюдение сроков</th>
-                        <th>Минимальная предоплата</th>
-                    </tr>
+                <div class="info-text">
+                    <h2>Мы- маленькая, но гордая дизайн-студия из Краснодара</h2>
+                    
+                </div>       
+                <div class="info-table">   
+                    <img src="img/nerds-illustration.png"  width="100" height="50 alt="Логотип Нёрдс">
+                    <table class="info-data">
+                        <tr>
+                            <td>146%</td>
+                            <td>100%</td>
+                            <td>50%</td>
+                        </tr>     
+                        <tr>
+                            <th>Уровень самоотдачи</th>
+                            <th>Соблюдение сроков</th>
+                            <th>Минимальная предоплата</th>
+                        </tr>
                     </table>
+                </div>
             </section>
             <section class="partners">
                 <ul>
-                    <li>HTML Academy</li>
-                    <li>Borodinski</li>
-                    <li>Pink</li>
-                    <li>Mishka</li>
+                    <li><a href="#"><img src="img/logo-academy.png" alt="HTML Academy"></a></li>
+                    <li><a href="#"><img src="img/logo-borodinski.png" alt="Borodinski"</li>
+                    <li><a href="#"><img src="img/logo-pink.png" alt="Pink"</a></li>
+                    <li><a href="#"><img src="img/logo-mishka.png" alt="Mishka"></a></li>
                 </ul>
+            </section>
+            <section ckass="map">
+                <img src="img/Map.jpg" alt="Как нас найти">
             </section>
         </main> 
         <footer class="footer-main">

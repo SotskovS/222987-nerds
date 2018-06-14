@@ -17,8 +17,9 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
                 <ul class="user-cart">
-                    <li class="cart-icon"></li>   
-                    <li>Корзина</li>
+                    <li>
+                        <a class="user-cart" href="#">Корзина</a>
+                    </li>
                 </ul>
                 <section class="header-slider">
                     <div class="header-slide1">
@@ -42,6 +43,7 @@
         </header>
         <main class="content">
             <section class="offer">
+                <h2 class="visually-hidden">Направления деятельности</h2>
                 <ul class="offer-list">
                     <li class="offer-item">
                         <div class="website-icon"></div>   
@@ -64,6 +66,7 @@
                 </ul>  
             </section>
             <section class="info">
+                <h2 class="visually-hidden">Принципы работы</h2>
                 <div class="info-text">
                     <h2>Мы- маленькая, но гордая дизайн-студия из Краснодара</h2>
                     
@@ -86,14 +89,30 @@
             </section>
             <section class="partners">
                 <ul>
-                    <li><a href="#"><img src="img/logo-academy.png" width="199" height="68" alt="HTML Академия"></a></li>
-                    <li><a href="#"><img src="img/logo-borodinski.png" width="209" height="90" alt="Бабершоп Бородинский"></a></li>
-                    <li><a href="#"><img src="img/logo-pink.png" width="185" height="52" alt="Приложение Пинк"></a></li>
-                    <li><a href="#"><img src="img/logo-mishka.png" width="173" height="84"  alt="Магазин товаров ручной работы Мишка"></a></li>
+                    <li>
+                        <a href="#"><img src="img/logo-academy.png" width="199" height="68" alt="Ссылка на HTML Академия"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/logo-borodinski.png" width="209" height="90" alt="Ссылка на Бабершоп Бородинский"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/logo-pink.png" width="185" height="52" alt="Ссылка на Приложение Пинк"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/logo-mishka.png" width="173" height="84"  alt="Ссылка на Магазин товаров ручной работы Мишка"></a>
+                    </li>
                 </ul>
             </section>
             <section class="map">
-                <img src="img/map.jpg" width="1480" height="808" alt="Как нас найти">
+                <p>
+                    <img src="img/map.jpg" width="1480" height="808" alt="Местонахождение: Санкт-Петербург, ул.Б.Конюшенная, д. 19/8">
+                </p>
+                <div class="contact">
+                    <h3>nёrds design studio</h3>
+                    <p>191186, Санкт-Петербург, ул.Б.Конюшенная, д. 19/8</p>
+                    <p>тел. +7(812)275-75-75</p>
+                    <a  class="button" href="#">Напишите нам</a>
+                </div>
             </section>
         </main> 
         <footer class="footer-main">
@@ -109,5 +128,19 @@
                 Скидка 10% для друзей из социальных сетей
             </p>                 
         </footer>
+        
+        <section class="modal modal-write">
+           <h2>Напишите нам</h2>
+           <button class="modal-close" type="button">Закрыть</button>
+           <form action="#">
+               <label for="name">Ваше имя:</label>
+               <input type="text" id="name" placeholder="Имя Фамилия">
+               <label for="mail">Ваш e-mail:</label>
+               <input type="email" id="mail" placeholder="email@example.com">
+               <label for="letter">Текст письма:</label>
+               <textarea id="letter" rows="5" placeholder="В свободной форме"></textarea>
+               <input type="submit" value="отправить">
+           </form>
+        </section>
     </body>
 </html>

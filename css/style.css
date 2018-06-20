@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+    color: #000000;
+}
+
+p {
+    color: #283136;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-header {
+    background-color: #eeeeee;
+}
+nav {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #eeeeee;
+}
+
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}
+
+.site-navigation,
+.user-navigation {
+    color: #000000;
+}
+
+a:hover {
+    color: #fb565a;
+}
+
+a:focus {
+    color: #a6a6a6;
+}
+
+.button {
+    font: inherit;
+
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+
+    background-color: #fb565a;
+    border: none;
+}
+
+.button:hover,
+.button:focus {
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    
+    background-color: #e74246;
+    border: none;
+}
+
+.button:active {
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    
+    background-color: #d7373b;
+    border: none;
+}
+
+.header-slide h2 {
+    font-size: 55px;
+    line-height: 55px;
+}
+.offer {
+    list-style: none;
+    text-align: left;
+}
+
+.offer-item h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.info h2 {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.info h3 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+td {
+    font-size: 45px;
+    line-height: 10,5px;
+    font-weight: bold;
+}
+
+th {
+    font-size: 16px;
+    line-height: 18px;
+    color: #283136
+}
+
+.portfolio-item a {
+    opacity: 0.2;
+}
+
+.portfolio-item a:hover {
+    opacity: 1;
+}
+
+.portfolio-item a:focus {
+    opacity: 1;
+}
+
+.portfolio-item a:active {
+    opacity: 0.1;
+}
+
+
+.modal input,
+.modal textarea {
+    font: inherit;
+    color: #a1a1a1;
+
+    background-color: transparent;
+    border: 1px solid #d7dcde;
+    outline: none;
+}
+
+.modal input:hover,
+.modal textarea:hover {
+    color: #a1a1a1;
+
+    border: 1px solid #b4b9bb;
+} 
+
+.modal input:focus,
+.modal textarea:focus {
+    color: #000000;
+
+    border: 1px solid #000000;
+}

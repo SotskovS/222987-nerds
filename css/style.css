@@ -28,7 +28,8 @@ ul {
     list-style: none;
 }
 
-.main-header {
+.main-header,
+.catalog-item {
     background-color: #eeeeee;
 }
 nav {
@@ -91,7 +92,8 @@ a:focus {
     border: none;
 }
 
-.header-slide h2 {
+.header-slide h2,
+h1 {
     font-size: 55px;
     line-height: 55px;
 }
@@ -157,13 +159,87 @@ th {
 .modal input:hover,
 .modal textarea:hover {
     color: #a1a1a1;
-
     border: 1px solid #b4b9bb;
 } 
 
 .modal input:focus,
 .modal textarea:focus {
     color: #000000;
-
     border: 1px solid #000000;
+}
+
+.modal input:invalid {
+    color: #e74246;
+    border: 1px solid #e74246;
+}
+
+.catalog-item-title {
+    text-transform: uppercase;
+}
+
+.catalog-item p {
+    color: #666666;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.filter legend {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 10;
+    text-transform: uppercase;
+  }
+
+.filter ul {
+    list-style: none;
+    line-height: 20px;
+}
+
+.show-btn {
+    color: #000000;
+    background-color: #eeeeee;    
+}
+
+.show-btn:hover {
+    color: #000000;
+    background-color: #dfdfdf; 
+}
+
+.show-btn:active {
+    color: #000000;
+    opacity: 0.3;
+    background-color: #d5d5d5; 
+}
+
+.cell label {
+    color: #283136;
+}
+
+.cell label:hover {
+    color: #000000;
+}
+
+.catalog-sort a,
+.catalog-sort svg{
+    color: rgba(0, 0, 0, 0.3);
+    fill: rgba(0, 0, 0, 0.3)
+}
+
+.catalog-sort a:hover,
+.catalog-sort svg:hover{
+    color: rgba(0, 0, 0, 0.6);
+    fill: rgba(0, 0, 0, 0.6)
+}
+
+.catalog-sort a:active,
+.catalog-sort svg:active{
+    color: rgba(0, 0, 0, 1);
+    fill: rgba(0, 0, 0, 1)
+}
+
+.catalog-item .catalog-btn {
+    color: #ffffff;
 }

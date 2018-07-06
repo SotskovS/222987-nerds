@@ -241,15 +241,31 @@
         <section class="modal modal-write">
             <h2>Напишите нам</h2>
             <button class="modal-close" type="button">Закрыть</button>
-            <form method="post" action="https://echo.htmlacademy.ru">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Имя Фамилия">
-                <label for="mail">Ваш e-mail:</label>
-                <input type="email" id="mail" placeholder="email@example.com">
-                <label for="letter">Текст письма:</label>
-                <textarea id="letter" rows="5" placeholder="В свободной форме"></textarea>
-                <button class="button" type="submit">Отправить</button>
+            <form class="revie-form" method="post" action="https://echo.htmlacademy.ru">
+                 <div class="personal-info">
+                     <div class="personal-name">
+                         <p>  
+                             <label for="name">Ваше имя:</label>
+                         </p>
+                         <p>
+                             <input class="revie-name" type="text" id="name" placeholder="Имя Фамилия">
+                         </p>
+                     </div>
+                     <div class="personal-mail">
+                         <p>
+                             <label for="mail">Ваш e-mail:</label>
+                         </p>
+                         <p>
+                             <input class="revie-mail" type="email" id="mail" placeholder="email@example.com">
+                         </p>
+                     </div>
+                 </div>
+                 <p>
+                     <label for="letter">Текст письма:</label>
+                 </p>
+                 <textarea class="message" id="letter" rows="5" placeholder="В свободной форме"></textarea>
+                 <button class="button" type="submit">Отправить</button>
             </form>
-         </section>
+        </section>
     </body>
 </html>

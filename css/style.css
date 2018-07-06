@@ -219,7 +219,7 @@ h1 {
 }
 
 .offer-list li {
-    padding-top: 146px;
+    padding-top: 147px;
 }
 
 .offer-item-web,
@@ -318,7 +318,7 @@ h1 {
 .info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 52px;
+    margin-bottom: 48px;
     border-top: 2px solid #eeeeee;
     padding-top: 38px;
 }
@@ -327,8 +327,8 @@ h1 {
     font-size: 45px;
     font-weight: 500;
     line-height: 45px;
-    margin-bottom: 32px;
-    margin-top: 41px;
+    margin-bottom: 34px;
+    margin-top: 36px;
 }
 
 .info-text h3 {           
@@ -336,12 +336,13 @@ h1 {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .info-text p {
     margin-bottom: 40px;
 }
+
 .info-text ul {
     font-size: 16px;
     line-height: 24px;
@@ -355,7 +356,19 @@ h1 {
 }
 
 .info-text li {
-    margin-bottom: 23px;
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 24px;
+}
+
+.info-text li::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    top: 10px;
+    left: 0;
+    background-color: #d7373b;
 }
 
 .info-table {
@@ -376,7 +389,7 @@ h1 {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 
 td {
@@ -420,28 +433,62 @@ th {
 }
 
 .portfolio li:nth-child(1) {
+    position: relative;
     padding-top: 19px;
     padding-left: 51px;
     margin-right: 80px;
 }
 
+.portfolio li:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 52px;
+    top: 22px;
+    left: 298px;
+    background-color: #eeeeee;
+}
 
 .portfolio li:nth-child(2) {
+    position: relative;
     padding-top: 5px;
     padding-left: 17px;
     margin-right: 80px;
 }
 
+.portfolio li:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 52px;
+    top: 22px;
+    left: 269px;
+    background-color: #eeeeee;
+}
+
 .portfolio li:nth-child(3) {
+    position: relative;
     padding-top: 23px;
     padding-left: 23px;
     margin-right: 80px;
+}
+
+.portfolio li:nth-child(3)::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 52px;
+    top: 22px;
+    left: 262px;
+    background-color: #eeeeee;
 }
 
 .portfolio li:nth-child(4) {
     padding-top: 10px;
     padding-left: 41px;
 }
+
+
 
 .portfolio-item a {
     opacity: 0.2;
@@ -492,10 +539,20 @@ th {
     text-align: center;
 }
 
+.contact h3,
+.contact p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .contact .button {
     display: inline-block;
     width: 220px;
     margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    font-weight: 500;
 }
 
 .contact h3 {
@@ -693,12 +750,17 @@ th {
 .catalog-list li {
     background-color: #ffffff;
 }
-.catalog-item-title {
+.catalog-item-title a {
+    color: #000000;
     text-transform: uppercase;
 }
 
 .catalog-item p {
     color: #666666;
+}
+
+.catalog-item:hover .modal-offer {
+    display: block;
 }
 
 .filter fieldset {
@@ -735,7 +797,7 @@ th {
     height: 24px;
     top: -2px;
     left: -35px;
-    background-image: url("../img/checkbox-off.svg");
+    background-image: url("../img/checkbox-off-qui.svg");
     background-repeat: no-repeat;
     background-position: 0 0;    
 }
@@ -743,8 +805,8 @@ th {
 .grid-checkbox:checked + label::after {
     content: '';
     position: absolute;
-    width: 24px;
-    height: 24px;
+    width: 27px;
+    height: 25px;
     top: -2px;
     left: -35px;
     background-image: url("../img/checkbox-on.svg");
@@ -755,11 +817,11 @@ th {
 .grid-radio + label::before {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 26px;
+    height: 26px;
     top: -2px;
     left: -35px;
-    background-image: url("../img/radio-off.svg");
+    background-image: url("../img/radio-off-qui.svg");
     background-repeat: no-repeat;
     background-position: 0 0;    
 }
@@ -767,16 +829,14 @@ th {
 .grid-radio:checked + label::after {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 26px;
+    height: 26px;
     top: -2px;
     left: -35px;
     background-image: url("../img/radio-on.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
-
-
 
 .filter legend {
     font-size: 18px;
@@ -799,7 +859,8 @@ th {
 .show-btn {
     width: 258px;
     color: #000000;    
-    background-color: #eeeeee;        
+    background-color: #eeeeee;  
+    font-weight: 500;      
 }
 
 .show-btn:hover,
@@ -1130,6 +1191,10 @@ th {
     border: none;
     margin-right: 16px;
 }
+
+.slider-controls button:last-child {
+    margin-right: 0;
+}
   
 .slider-controls button::after {
     content: "";
@@ -1143,7 +1208,6 @@ th {
     border-radius: 50%;
 }
 
-  
 .slider-controls .action::before {
     content: "";
     position: absolute;
@@ -1153,10 +1217,10 @@ th {
     width: 4px;
     height: 4px;
     margin: -4px;
-    background-color: inherit;
+    background-color: #fffffff;
     border: 2px solid #c1c1c1;
     border-radius: 50%;
-    border-bottom: 0;
+    border-bottom: 1;
 }
   
 .slider-list {
@@ -1204,12 +1268,16 @@ th {
 .slider-item p {
     max-width: 430px;
     margin: 0;
-    margin-bottom: 38px;
+    margin-bottom: 41px;
+}
+
+.slider-item a {
+    font-weight: 500;
 }
  
 .catalog-item {
     position: relative;
-    padding-top: 40px;
+    padding-top: 39px;
 }
 .catalog-item:before {
     position: absolute;
@@ -1249,3 +1317,9 @@ th {
 .catalog-site {
     margin-bottom: 27px;
 }
+
+
+
+
+
+

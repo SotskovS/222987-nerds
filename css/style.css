@@ -565,12 +565,12 @@ th {
 
 .contact .button {
     display: inline-block;
+    font-weight: 500;
     width: 220px;
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-
-    font-weight: 500;
+    vertical-align: top;    
 }
 
 .contact h3 {
@@ -844,7 +844,8 @@ th {
     opacity: 0.4;
 }
 
-.grid-checkbox:hover + label::before {
+.grid-checkbox:hover + label::before,
+.grid-checkbox:focus + label::before {
     content: '';
     position: absolute;
     width: 24px;
@@ -857,7 +858,7 @@ th {
     opacity: 1;
 }
 
-.grid-checkbox:active + label::before {
+.grid-checkbox:disabled + label::before {
     content: '';
     position: absolute;
     width: 24px;
@@ -896,7 +897,8 @@ th {
     opacity: 0.4;
 }
 
-.grid-radio:hover + label::before {
+.grid-radio:hover + label::before,
+.grid-radio:focus + label::before {
     content: '';
     position: absolute;
     width: 26px;
@@ -909,7 +911,7 @@ th {
     opacity: 1;
 }
 
-.grid-radio:active + label::before {
+.grid-radio:disabled + label::before {
     content: '';
     position: absolute;
     width: 26px;
@@ -1034,12 +1036,14 @@ th {
 .modal-offer p {
     display: inline-block;
     width: 230px;
+    vertical-align: top;
 }
 
 .catalog-btn {
     display: inline-block;
     width: 200px;
     margin-bottom: 40px;
+    vertical-align: top;
 }
 
 .pagination {
@@ -1239,6 +1243,7 @@ th {
     width: 50%;
     font-size: 16px;
     text-transform: uppercase;
+    vertical-align: top;
 }
   
 .price-controls input {
@@ -1290,6 +1295,7 @@ th {
     cursor: pointer;
     border: none;
     margin-right: 16px;
+    vertical-align: top;
 }
 
 .slider-controls button:last-child {

@@ -427,20 +427,18 @@ th {
 
 .portfolio-list {
     display: flex;
-}
-
-.portfolio ul {
+    align-items: center;
+    justify-content: space-around;
     list-style: none;
-    text-align: center;
-    padding-top: 26px;
     padding-left: 0;
+    margin-top: 46px;
+    margin-right: 5px;
+    margin-bottoom: 18px;
 }
 
 .portfolio li:nth-child(1) {
     position: relative;
-    padding-top: 19px;
-    padding-left: 51px;
-    margin-right: 80px;
+    margin-top 10px;
 }
 
 .portfolio li:nth-child(1)::after {
@@ -448,16 +446,14 @@ th {
     position: absolute;
     width: 3px;
     height: 52px;
-    top: 22px;
-    left: 298px;
+    top: 2px;
+    left: 248px;
     background-color: #eeeeee;
 }
 
 .portfolio li:nth-child(2) {
     position: relative;
-    padding-top: 5px;
-    padding-left: 17px;
-    margin-right: 80px;
+    padding-right: 3px;
 }
 
 .portfolio li:nth-child(2)::after {
@@ -465,16 +461,16 @@ th {
     position: absolute;
     width: 3px;
     height: 52px;
-    top: 22px;
-    left: 269px;
+    top: 18px;
+    left: 251px;
     background-color: #eeeeee;
 }
 
 .portfolio li:nth-child(3) {
     position: relative;
-    padding-top: 23px;
-    padding-left: 23px;
-    margin-right: 80px;
+    align-self: baseline;
+    margin-top: 19px;
+    margin-right: 22px;
 }
 
 .portfolio li:nth-child(3)::after {
@@ -482,17 +478,14 @@ th {
     position: absolute;
     width: 3px;
     height: 52px;
-    top: 22px;
-    left: 262px;
+    top: 0;
+    left: 241px;
     background-color: #eeeeee;
 }
 
 .portfolio li:nth-child(4) {
-    padding-top: 10px;
-    padding-left: 41px;
+    padding-right: 9px;
 }
-
-
 
 .portfolio-item a {
     opacity: 0.2;

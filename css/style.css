@@ -197,6 +197,7 @@ h1 {
 .caption {
     text-align: center; 
     height: 100px;
+    margin-top: 65px;
     background-color: #eeeeee;
 }
 
@@ -276,7 +277,7 @@ h1 {
 
 .offer-list p {
     width: 250px;
-    margin-bottom: 33px;
+    margin-bottom: 34px;
     color: #283136;
 }
 
@@ -334,7 +335,7 @@ h1 {
 .info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 47px;
     border-top: 2px solid #eeeeee;
     padding-top: 38px;
 }
@@ -343,7 +344,7 @@ h1 {
     font-size: 45px;
     font-weight: 500;
     line-height: 45px;
-    margin-bottom: 32px;
+    margin-bottom: 35px;
     margin-top: 36px;
 }
 
@@ -375,7 +376,7 @@ h1 {
 .info-text li {
     position: relative;
     padding-left: 36px;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
     color: #283136;
 }
 
@@ -434,7 +435,7 @@ th {
 .portfolio {
     border-top: 2px solid #eeeeee;
     border-bottom: 2px solid #eeeeee;
-    margin-bottom: 82px;
+    margin-bottom: 79px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 22px;
@@ -568,26 +569,28 @@ th {
     bottom: 53px;
 }
 
-.contact h3,
+/*.contact h3,
 .contact p {
-    padding-left: 49px;
+    padding-left: 51px;
     padding-right: 50px;
-}
+}*/
 
 .contact .button {
     display: inline-block;
     font-weight: 500;
     width: 220px;
-    margin-top: 19px;
+    margin-top: 20px;
     margin-right: 50px;
-    margin-left: 48px;
+    margin-left: 49px;
     vertical-align: top;    
 }
 
 .contact h3 {
     font-size: 18px;
-    padding-top: 33px;
-    margin-bottom: 28px;
+    padding-top: 37px;
+    margin-bottom: 25px;
+    padding-left: 51px;
+    padding-right: 50px;
     text-transform: uppercase;
 }
 
@@ -595,6 +598,8 @@ th {
     font-size: 16px;
     line-height: 18px;
     margin-bottom: 19px;
+    padding-left: 51px;
+    padding-right: 50px;
 }
 
 .footer-main {
@@ -606,6 +611,7 @@ th {
 .footer-social {
     width: 260px;
     margin-right: 140px;
+    margin-top: 2px;
 }
 
 .footer-social ul {
@@ -649,7 +655,7 @@ th {
 .footer-bidding {
     color: #444444;
     align-self: center;
-    margin-top: 23px;
+    margin-top: 25px;
     height: 100px;
 }
 
@@ -1148,7 +1154,7 @@ th {
 
 .catalog-item {
 	width: 360px;
-	margin-bottom: 25px;
+	margin-bottom: 27px;
 	margin-right: 32px;
 }
 
@@ -1267,7 +1273,7 @@ th {
 .slider-controls {
     position: absolute;
     left: 50%;
-    bottom: 97px;
+    bottom: 94px;
     z-index: 100;
     width: 160px;
     height: 18px;
@@ -1357,7 +1363,7 @@ th {
 .slider-item h3 {
     max-width: 600px;
     margin: 0;
-    margin-bottom: 27px;
+    margin-bottom: 29px;
     font-size: 55px;
     line-height: 55px;
     font-weight: 500;
@@ -1366,7 +1372,7 @@ th {
 .slider-item p {
     max-width: 430px;
     margin: 0;
-    margin-bottom: 41px;
+    margin-bottom: 40px;
     color: #283136;
 }
 
